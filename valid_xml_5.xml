@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<!DOCTYPE orders SYSTEM "courier_services.dtd">
+
+<orders>
+    <order>
+        <id>5</id>
+        <from>
+            <company code="115829812">
+                <name>ИЗИ КОНСУЛТ</name>
+                <address>
+                    <district>София</district>
+                    <city>
+                        <zip_code>1766</zip_code>
+                        <name>София</name>
+                        <neighbourhood>Младост 4</neighbourhood>
+                        <street>
+                            <name>д-р Атанас Москов</name>
+                            <number>15</number>
+                        </street>
+                    </city>
+                    <parking available="Да"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Христо</first>
+                        <last>Палазов</last>
+                    </emp_name>
+                    <phones>
+                        <phone>
+                            <code>359</code>
+                            <number>248 958 85</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email>hpalazov@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </from>
+        <to>
+            <company code="201803961">
+                <name>СТАНГА</name>
+                <address>
+                    <district>София</district>
+                    <city>
+                        <zip_code>1407</zip_code>
+                        <name>София</name>
+                        <neighbourhood>Лозенец</neighbourhood>
+                        <street>
+                            <name>Черни връх</name>
+                            <number>43</number>
+                        </street>
+                    </city>
+                    <parking available="Да"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Мариана</first>
+                        <last>Методиева</last>
+                    </emp_name>
+                    <phones>
+                        <phone>
+                            <code>359</code>
+                            <number>32550071</number>
+                        </phone>
+                        <phone>
+                            <code>359</code>
+                            <number>526 031 90</number>
+                        </phone>
+                        <phone>
+                            <code>359</code>
+                            <number>819 604 121</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email>mmetodieva@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </to>
+        <details>
+            <pickoff>
+                <date year="2020" month="11" day="29"/>
+                <time hours="12" minutes="40"/>
+            </pickoff>
+            <dropoff>
+                <date year="2020" month="11" day="30"/>
+                <time hours="00" minutes="05"/>
+            </dropoff>
+            <price level="12часа">
+                <value>54.99</value>
+                <currency>лева</currency>
+            </price>
+            <verification>
+                <signature>6PMunN53KIenRyKTVBWYeg</signature>
+            </verification>
+            <freight>
+                <dimensions units="см">
+                    <width>600</width>
+                    <height>600</height>
+                </dimensions>
+                <quantity>150</quantity>
+                <weight units="кг">50</weight>
+                <requires_van value="Да"/>
+                <call_customer value="Да"/>
+                <food value="Да"/>
+            </freight>
+        </details>
+    </order>
+</orders>

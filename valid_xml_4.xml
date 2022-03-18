@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE orders SYSTEM "courier_services.dtd">
+
+<orders>
+    <order>
+        <id>4</id>
+        <from>
+            <company code="831919536">
+                <name>УниКредит Булбанк</name>
+                <address>
+                    <district>София</district>
+                    <city>
+                        <zip_code>1000</zip_code>
+                        <name>София</name>
+                        <neighbourhood>Център</neighbourhood>
+                        <street>
+                            <name>Света Неделя</name>
+                            <number>7</number>
+                        </street>
+                    </city>
+                    <parking available="Да"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Георги</first>
+                        <last>Кирилов</last>
+                    </emp_name>
+                    <phones>
+                        <phone>
+                            <code>359</code>
+                            <number>851 423 694</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email>gkirilov@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </from>
+        <to>
+            <company code="115840214">
+                <name>Профилинк</name>
+                <address>
+                    <district>Пловдив</district>
+                    <city>
+                        <zip_code>4023</zip_code>
+                        <name>Пловдив</name>
+                        <neighbourhood>Южна промишлена зона</neighbourhood>
+                        <street>
+                            <name>Нестор Абаджиев</name>
+                            <number>55</number>
+                        </street>
+                    </city>
+                    <parking available="Да"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Йордан</first>
+                        <last>Фиданов</last>
+                    </emp_name>
+                    <phones>
+                        <phone>
+                            <code>359</code>
+                            <number>887 088 851</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email notification="Не">ifidanov@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </to>
+        <details>
+            <pickoff>
+                <date year="2020" month="12" day="02"/>
+                <time hours="11" minutes="00"/>
+            </pickoff>
+            <dropoff>
+                <date year="2020" month="12" day="02"/>
+                <time hours="13" minutes="00"/>
+            </dropoff>
+            <price level="2часа">
+                <value>150</value>
+                <currency>долара</currency>
+            </price>
+            <verification>
+                <signature>ytEsaZisQneClzWje4aY0Q</signature>
+            </verification>
+            <freight>
+                <dimensions units="см">
+                    <width>200</width>
+                    <height>100</height>
+                </dimensions>
+                <quantity>50</quantity>
+                <weight units="кг">15</weight>
+                <requires_van value="Не"/>
+                <call_customer value="Да"/>
+                <food value="Да"/>
+            </freight>
+        </details>
+    </order>
+</orders>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><companies>
+    <order id="1">
+        <sender>
+            <name>ФМИ</name>
+            <code>204952162</code>
+            <address>София; 1766 - гр.София, кв."Младост", ул."Витошки камбани" н.9</address>
+            <payed>50лева</payed>
+        </sender>
+        <receiver>
+            <name>Астреа Рикрутмънт</name>
+            <code>203088121</code>
+            <address>София; 1309 - гр.София, кв."Възраждане", ул."Царибродска" н.70</address>
+        </receiver>
+    </order>
+    <order id="6">
+        <sender>
+            <name>ПРОКСИАД БЪЛГАРИЯ ЕАД</name>
+            <code>175108293</code>
+            <address>София; 1113 - гр.София, кв."Дианабад", ул."Тинтява" н.13б</address>
+            <payed>50лева</payed>
+        </sender>
+        <receiver>
+            <name>Понтика Солюшънс ООД</name>
+            <code>202506991</code>
+            <address>София; 1505 - гр.София, кв."Оборище", ул."Черковна" н.38</address>
+        </receiver>
+    </order>
+</companies>

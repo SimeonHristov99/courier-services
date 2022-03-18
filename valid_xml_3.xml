@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE orders SYSTEM "courier_services.dtd">
+
+<orders>
+    <order>
+        <id>3</id>
+        <from>
+            <company code="131448974">
+                <name>Си 3 ай Европа</name>
+                <address>
+                    <district>София</district>
+                    <city>
+                        <zip_code>1766</zip_code>
+                        <name>София</name>
+                        <neighbourhood>Младост 4</neighbourhood>
+                        <street>
+                            <name>Бизнес парк София</name>
+                            <number>1</number>
+                        </street>
+                    </city>
+                    <parking available="Да"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Рахул</first>
+                        <last>Сингх</last>
+                    </emp_name>
+                    <phones>
+                        <phone notification="Да">
+                            <code>359</code>
+                            <number>248 982 78</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email>rsingh@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </from>
+        <to>
+            <company code="131448974">
+                <name>Си 3 ай Европа</name>
+                <address>
+                    <district>Варна</district>
+                    <city>
+                        <zip_code>9002</zip_code>
+                        <name>Варна</name>
+                        <neighbourhood>Център</neighbourhood>
+                        <street>
+                            <name>Сливница</name>
+                            <number>24</number>
+                        </street>
+                    </city>
+                    <parking available="Не"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Шив</first>
+                        <last>Валиа</last>
+                    </emp_name>
+                    <phones>
+                        <phone>
+                            <code>359</code>
+                            <number>257 522 46</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email>shvalia@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </to>
+        <details>
+            <pickoff>
+                <date year="2020" month="04" day="22"/>
+                <time hours="08" minutes="00"/>
+            </pickoff>
+            <dropoff>
+                <date year="2020" month="04" day="22"/>
+                <time hours="13" minutes="15"/>
+            </dropoff>
+            <price level="Веднага">
+                <value>1500</value>
+                <currency>евро</currency>
+            </price>
+            <verification>
+                <signature>eN67VS_l69GHpPCW1uPzfQ</signature>
+            </verification>
+            <freight>
+                <dimensions units="м">
+                    <width>20</width>
+                    <height>1</height>
+                </dimensions>
+                <quantity>15</quantity>
+                <weight units="кг">750</weight>
+                <requires_van value="Да"/>
+                <call_customer value="Да"/>
+                <food value="Не"/>
+            </freight>
+        </details>
+    </order>
+</orders>

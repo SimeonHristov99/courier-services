@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+        <!ELEMENT orders (order*)>
+        <!ELEMENT order (id, from, to, details)>
+
+        <!ELEMENT id (#PCDATA)>
+        <!ELEMENT from (note?, company)>
+        <!ELEMENT note (#PCDATA)>
+        <!ELEMENT company (name?, address, employee)>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT address (district?, city, parking?)>
+        <!ELEMENT district (#PCDATA)>
+        <!ELEMENT city (zip_code, name?, neighbourhood?, street?)>
+        <!ELEMENT zip_code (#PCDATA)>
+        <!ELEMENT neighbourhood (#PCDATA)>
+        <!ELEMENT street (name, number)>
+        <!ELEMENT number (#PCDATA)>
+        <!ELEMENT parking EMPTY>
+        <!ELEMENT employee (emp_name?, phones, emails?)>
+        <!ELEMENT emp_name (first?, last)>
+        <!ELEMENT first (#PCDATA)>
+        <!ELEMENT last (#PCDATA)>
+        <!ELEMENT phones (phone)+>
+        <!ELEMENT phone (code, number)>
+        <!ELEMENT code (#PCDATA)>
+        <!ELEMENT emails (email)+>
+        <!ELEMENT email (#PCDATA)>
+
+        <!ELEMENT to (note?, company)>
+
+        <!ELEMENT details (pickoff, dropoff, price, verification?, freight)>
+        <!ELEMENT pickoff (date, time?)>
+        <!ELEMENT date EMPTY>
+        <!ELEMENT time EMPTY>
+        <!ELEMENT dropoff (date, time?)>
+        <!ELEMENT price (value, currency)>
+        <!ELEMENT value (#PCDATA)>
+        <!ELEMENT currency (#PCDATA)>
+        <!ELEMENT verification (signature)?>
+        <!ELEMENT signature (#PCDATA)>
+        <!ELEMENT freight (dimensions, quantity, weight, requires_van, call_customer, food)>
+        <!ELEMENT dimensions (width, height)>
+        <!ELEMENT width (#PCDATA)>
+        <!ELEMENT height (#PCDATA)>
+        <!ELEMENT quantity (#PCDATA)>
+        <!ELEMENT weight (#PCDATA)>
+        <!ELEMENT requires_van EMPTY>
+        <!ELEMENT call_customer EMPTY>
+        <!ELEMENT food EMPTY>
+
+        <!ATTLIST phone notification (Да|Не) "Не">
+        <!ATTLIST email notification (Да|Не) "Да">
+        <!ATTLIST parking available (Да|Не) #REQUIRED>
+        <!ATTLIST dimensions units CDATA #REQUIRED>
+        <!ATTLIST weight units CDATA #REQUIRED>
+        <!ATTLIST requires_van value (Да|Не) #REQUIRED>
+        <!ATTLIST call_customer value (Да|Не) #REQUIRED>
+        <!ATTLIST food value (Да|Не) #REQUIRED>
+        <!ATTLIST price level (Веднага|2часа|4часа|12часа) #REQUIRED>
+        <!ATTLIST company code CDATA #REQUIRED>
+        <!ATTLIST date year CDATA #REQUIRED>
+        <!ATTLIST date month CDATA #REQUIRED>
+        <!ATTLIST date day CDATA #REQUIRED>
+        <!ATTLIST time hours CDATA #REQUIRED>
+        <!ATTLIST time minutes CDATA #REQUIRED>

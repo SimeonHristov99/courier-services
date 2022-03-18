@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE orders SYSTEM "courier_services.dtd">
+
+<orders>
+    <order>
+        <id>2</id>
+        <from>
+            <note>Влиза се през ул. Николай Ракитин 2. Моля служителят се качи на етаж 6</note>
+            <company code="204473764">
+                <name>Старс Интерактив Сървиз (България)</name>
+                <address>
+                    <district>София</district>
+                    <city>
+                        <zip_code>1124</zip_code>
+                        <name>София</name>
+                        <neighbourhood>Яворов</neighbourhood>
+                        <street>
+                            <name>Цариградско шосе</name>
+                            <number>47а</number>
+                        </street>
+                    </city>
+                    <parking available="Да"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Адам</first>
+                        <last>Коуел</last>
+                    </emp_name>
+                    <phones>
+                        <phone notification="Да">
+                            <code>359</code>
+                            <number>249 515 80</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email>akcauel@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </from>
+        <to>
+            <company code="204605415">
+                <name>Капабо</name>
+                <address>
+                    <district>Русе</district>
+                    <city>
+                        <zip_code>7000</zip_code>
+                        <name>Русе</name>
+                        <neighbourhood>Хъшове</neighbourhood>
+                        <street>
+                            <name>Александровска</name>
+                            <number>26</number>
+                        </street>
+                    </city>
+                    <parking available="Не"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Александър</first>
+                        <last>Ангелов</last>
+                    </emp_name>
+                    <phones>
+                        <phone>
+                            <code>359</code>
+                            <number>889 503 073</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email>aangelov@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </to>
+        <details>
+            <pickoff>
+                <date year="2019" month="05" day="19"/>
+                <time hours="09" minutes="00"/>
+            </pickoff>
+            <dropoff>
+                <date year="test" month="05" day="19"/>
+                <time hours="17" minutes="20"/>
+            </dropoff>
+            <price level="12часа">
+                <value>550</value>
+                <currency>лева</currency>
+            </price>
+            <verification>
+                <signature>0ZGKSfjGPBkEY8_qmxtE9g</signature>
+            </verification>
+            <freight>
+                <dimensions units="м">
+                    <width>10</width>
+                    <height>10</height>
+                </dimensions>
+                <quantity>1</quantity>
+                <weight units="кг">250</weight>
+                <requires_van value="Да"/>
+                <call_customer value="Да"/>
+                <food value="Не"/>
+            </freight>
+        </details>
+    </order>
+</orders>

@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+
+<!DOCTYPE orders SYSTEM "courier_services.dtd">
+
+<orders>
+    <order>
+        <id>1</id>
+        <from>
+            <company code="204952162">
+                <name>ФМИ</name>
+                <address>
+                    <district>София</district>
+                    <city>
+                        <zip_code>1766</zip_code>
+                        <name>София</name>
+                        <neighbourhood>Младост</neighbourhood>
+                        <street>
+                            <name>Витошки камбани</name>
+                            <number>9</number>
+                        </street>
+                    </city>
+                    <parking available="Не"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Павел</first>
+                        <last>Павлов</last>
+                    </emp_name>
+                    <phones>
+                        <phone>
+                            <code>359</code>
+                            <number>885 865 066</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email notification="Да">pmanev@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </from>
+        <to>
+            <note>На този адрес има още две фирми. Астреа Рикрутмънт се намира в офис 3</note>
+            <company code="203088121">
+                <name>Астреа Рикрутмънт</name>
+                <address>
+                    <district>София</district>
+                    <city>
+                        <zip_code>1309</zip_code>
+                        <name>София</name>
+                        <neighbourhood>Възраждане</neighbourhood>
+                        <street>
+                            <name>Царибродска</name>
+                            <number>70</number>
+                        </street>
+                    </city>
+                    <parking available="Да"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Мая</first>
+                        <last>Иванова</last>
+                    </emp_name>
+                    <phones>
+                        <phone notification="Да">
+                            <code>359</code>
+                            <number>882 467 851</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email>mivanova@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </to>
+        <details>
+            <pickoff>
+                <date year="test" month="01" day="11"/>
+                <time hours="11" minutes="11"/>
+            </pickoff>
+            <dropoff>
+                <date year="2020" month="01" day="11"/>
+                <time hours="14" minutes="55"/>
+            </dropoff>
+            <price level="2часа">
+                <value>50</value>
+                <currency>лева</currency>
+            </price>
+            <verification>
+                <signature>lqIMx78wHyf1PndUdsrKBQ</signature>
+            </verification>
+            <freight>
+                <dimensions units="см">
+                    <width>250</width>
+                    <height>165</height>
+                </dimensions>
+                <quantity>5</quantity>
+                <weight units="кг">2.5</weight>
+                <requires_van value="Не"/>
+                <call_customer value="Да"/>
+                <food value="Не"/>
+            </freight>
+        </details>
+    </order>
+
+    <order>
+        <id>6</id>
+        <from>
+            <note>Служителят да се качи на етаж 4.</note>
+            <company code="175108293">
+                <name>ПРОКСИАД БЪЛГАРИЯ ЕАД</name>
+                <address>
+                    <district>София</district>
+                    <city>
+                        <zip_code>1113</zip_code>
+                        <name>София</name>
+                        <neighbourhood>Дианабад</neighbourhood>
+                        <street>
+                            <name>Тинтява</name>
+                            <number>13б</number>
+                        </street>
+                    </city>
+                    <parking available="Не"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Стефан</first>
+                        <last>Леви</last>
+                    </emp_name>
+                    <phones>
+                        <phone notification="Да">
+                            <code>359</code>
+                            <number>2 980 91 03</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email>slevi@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </from>
+        <to>
+            <company code="202506991">
+                <name>Понтика Солюшънс ООД</name>
+                <address>
+                    <district>София</district>
+                    <city>
+                        <zip_code>1505</zip_code>
+                        <name>София</name>
+                        <neighbourhood>Оборище</neighbourhood>
+                        <street>
+                            <name>Черковна</name>
+                            <number>38</number>
+                        </street>
+                    </city>
+                    <parking available="Не"/>
+                </address>
+                <employee>
+                    <emp_name>
+                        <first>Иван</first>
+                        <last>Георгиев</last>
+                    </emp_name>
+                    <phones>
+                        <phone>
+                            <code>359</code>
+                            <number>24912488</number>
+                        </phone>
+                    </phones>
+                    <emails>
+                        <email>igeorgiev@gmail.com</email>
+                    </emails>
+                </employee>
+            </company>
+        </to>
+        <details>
+            <pickoff>
+                <date year="2020" month="12" day="30"/>
+                <time hours="19" minutes="00"/>
+            </pickoff>
+            <dropoff>
+                <date year="2020" month="12" day="31"/>
+                <time hours="17" minutes="20"/>
+            </dropoff>
+            <price level="12часа">
+                <value>50</value>
+                <currency>лева</currency>
+            </price>
+            <verification>
+                <signature>TXsuj8yqfynPDunkRnG7bw</signature>
+            </verification>
+            <freight>
+                <dimensions units="м">
+                    <width>20</width>
+                    <height>15</height>
+                </dimensions>
+                <quantity>5</quantity>
+                <weight units="кг">45</weight>
+                <requires_van value="Да"/>
+                <call_customer value="Да"/>
+                <food value="Не"/>
+            </freight>
+        </details>
+    </order>
+
+</orders>
